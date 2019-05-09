@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1924227670380760}
+  m_IsPrefabAsset: 1
+--- !u!1 &1924227670380760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4247361057021698}
+  - component: {fileID: 114573543008635742}
+  m_Layer: 0
+  m_Name: 13-facil
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4247361057021698
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1924227670380760}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.087309, y: 0, z: 9.882036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114573543008635742
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1924227670380760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ffff86db4274e40803db77961f4a8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  json: {fileID: 4900000, guid: 63d2bfc0084d5ca44924c2eb9991c2fb, type: 3}
+  imagemQuestao: {fileID: 0}
+  questao:
+    pergunta: "Para Vygotsky a brincadeira \xE9 ..."
+    respostas:
+    - "a) A brincadeira \xE9 um espa\xE7o privilegiado de intera\xE7\xE3o e confronto
+      de diferentes crian\xE7as com diferentes pontos de vista."
+    - "b) A brincadeira \xE9 uma situa\xE7\xE3o organizada, na qual a crian\xE7a tem
+      que tomar decis\xF5es pertinentes a diversas situa\xE7\xF5es que surgem nos
+      contextos criados."
+    - "c) A brincadeira permite que a crian\xE7a reproduza os valores que vivencia
+      diariamente, ajudando-a a socializar-se."
+    - "d) A brincadeira oportuniza que a crian\xE7a, de modo ativo, reinterprete o
+      mundo, produzindo novos saberes e pr\xE1ticas."
+    numResposta: 3
+  afterQuestion:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

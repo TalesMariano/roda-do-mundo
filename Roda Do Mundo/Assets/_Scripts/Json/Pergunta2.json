@@ -1,0 +1,10 @@
+{
+    "pergunta": "As coordenadas (latidude, longitude e altitude) dos pontos extremos do terreno, em um sistema ortonormal cuja unidade u=1m, são: A=(0,15,0); B=(0,140,0); C=(160,180,0); D=(200,140,0); E=(160,64,0); F=(160,0,0); Usando como referência as coordenadas fornecidas, calcule a área total do terreno do empreendimento. A área do terreno é:",
+    "respostas": [
+        "25620m\u00B2",
+        "26720m\u00B2",
+        "29520m\u00B2",
+        "22420m\u00B2"
+    ],
+    "numResposta": 1
+}

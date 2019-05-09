@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1993064430263762}
+  m_IsPrefabAsset: 1
+--- !u!1 &1993064430263762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4355135321192462}
+  - component: {fileID: 114218620985654586}
+  m_Layer: 0
+  m_Name: 15-dificil
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4355135321192462
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1993064430263762}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.087309, y: 0, z: 9.882036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114218620985654586
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1993064430263762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ffff86db4274e40803db77961f4a8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  json: {fileID: 4900000, guid: d4dc339607fba0844999e1a876663f5b, type: 3}
+  imagemQuestao: {fileID: 0}
+  questao:
+    pergunta: "Sobre as rela\xE7\xF5es entre as concep\xE7\xF5es do desenvolvimento
+      apresentadas abaixo e seus respectivos autores, analise: \n \n I. D\xE1-se espontaneamente
+      a partir de suas potencialidades e da sua intera\xE7\xE3o com o meio. O processo
+      de desenvolvimento mental \xE9 lento, ocorrendo por meio de gradua\xE7\xF5es
+      sucessivas atrav\xE9s de est\xE1gios. (Piaget) \n II. Tem momentos de crise,
+      isto \xE9, uma crian\xE7a ou um adulto n\xE3o s\xE3o capazes de se desenvolver
+      sem conflitos. A crian\xE7a se desenvolve com seus conflitos internos e, cada
+      est\xE1gio estabelece uma forma espec\xEDfica de intera\xE7\xE3o com o outro.
+      (Wallon) \n III. O conhecimento tem g\xEAnese nas rela\xE7\xF5es sociais, sendo
+      produzido na intersubjetividade e marcado por condi\xE7\xF5es culturais, sociais
+      e hist\xF3ricas. (Vygotsky) \n Est\xE3o corretas as afirmativas:"
+    respostas:
+    - "a) ( ) somente a I \xE9 correta."
+    - "b) ( ) somente II e III s\xE3o corretas."
+    - "c) ( ) I, II, III s\xE3o corretas."
+    - "d) ( ) nenhuma \xE9 correta."
+    numResposta: 2
+  afterQuestion:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

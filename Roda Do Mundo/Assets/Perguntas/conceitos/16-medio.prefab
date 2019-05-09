@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1995536688675640}
+  m_IsPrefabAsset: 1
+--- !u!1 &1995536688675640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4401658698603076}
+  - component: {fileID: 114173501764611028}
+  m_Layer: 0
+  m_Name: 16-medio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4401658698603076
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1995536688675640}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.087309, y: 0, z: 9.882036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114173501764611028
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1995536688675640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ffff86db4274e40803db77961f4a8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  json: {fileID: 4900000, guid: 958a31fd01be9b046bbba637bf8d7e66, type: 3}
+  imagemQuestao: {fileID: 0}
+  questao:
+    pergunta: "Indique a alternativa correta: \n A concep\xE7\xE3o (1) do desenvolvimento
+      humano acreditava que tudo seria (2) pelos fatores (3) que j\xE1 se encontrariam
+      prontos ao nascer."
+    respostas:
+    - "a) 1 - inatista; 2 - determinado; 3 \u2013 biol\xF3gicos."
+    - "b) 1 - interacionista; 2 - resolvido; 3 \u2013 fisiol\xF3gicos."
+    - "c) 1 - ambientalista; 2 - equacionado; 3 \u2013 sociol\xF3gicos."
+    - "d) 1 - ecol\xF3gica; 2 - planejado; 3 \u2013 emocionais."
+    numResposta: 0
+  afterQuestion:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

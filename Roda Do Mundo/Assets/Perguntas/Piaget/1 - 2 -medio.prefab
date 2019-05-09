@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1759311587154382}
+  m_IsPrefabAsset: 1
+--- !u!1 &1759311587154382
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4296719526964858}
+  - component: {fileID: 114108824418617106}
+  m_Layer: 0
+  m_Name: 1 - 2 -medio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4296719526964858
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1759311587154382}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.087309, y: 0, z: 9.882036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114108824418617106
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1759311587154382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ffff86db4274e40803db77961f4a8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  json: {fileID: 4900000, guid: b90419ccb6851994fac4670e873fe65a, type: 3}
+  imagemQuestao: {fileID: 0}
+  questao:
+    pergunta: "Com rela\xE7\xE3o aos est\xE1gios de desenvolvimento, de acordo com
+      Piaget, assinale V para as senten\xE7as VERDADEIRAS e F para as FALSAS.\_\n\n
+      ( ) Os est\xE1gios do desenvolvimento s\xE3o uma maneira de explicar a organiza\xE7\xE3o
+      mental e as idades cronol\xF3gicas s\xE3o norteadoras, referindo-se \xE0s idades
+      mais prov\xE1veis em que a crian\xE7a apresenta os comportamentos descritos
+      em cada est\xE1gio.\_\n ( ) O est\xE1gio sens\xF3rio-motor caracteriza-se pela
+      falta da fun\xE7\xE3o simb\xF3lica e, por isso, n\xE3o se pode considerar que
+      haja intelig\xEAncia propriamente dita.\_\n ( ) O est\xE1gio pr\xE9-operat\xF3rio
+      tem in\xEDcio com as primeiras simboliza\xE7\xF5es rudimentares que aparecem
+      no final do per\xEDodo sens\xF3rio-motor, ou seja, h\xE1 representa\xE7\xE3o
+      e, por isso, o pensamento n\xE3o est\xE1 mais preso aos eventos perceptivos
+      e motores.\_\n ( ) No per\xEDodo operat\xF3rio concreto, os processos mentais
+      da crian\xE7a tornam-se l\xF3gicos, ou seja, a crian\xE7a tem em seu controle
+      um sistema cognitivo coerente e integrado com o qual organiza e age no mundo."
+    respostas:
+    - "a) F,\_V, F, F."
+    - b) V, F, V, V.
+    - c) F, F, F, V.
+    - d) V, V, F, V.
+    numResposta: 1
+  afterQuestion:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

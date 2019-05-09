@@ -1,0 +1,10 @@
+{
+    "pergunta": "Com relação aos estágios de desenvolvimento, de acordo com Piaget, assinale V para as sentenças VERDADEIRAS e F para as FALSAS. \n\n ( ) Os estágios do desenvolvimento são uma maneira de explicar a organização mental e as idades cronológicas são norteadoras, referindo-se às idades mais prováveis em que a criança apresenta os comportamentos descritos em cada estágio. \n ( ) O estágio sensório-motor caracteriza-se pela falta da função simbólica e, por isso, não se pode considerar que haja inteligência propriamente dita. \n ( ) O estágio pré-operatório tem início com as primeiras simbolizações rudimentares que aparecem no final do período sensório-motor, ou seja, há representação e, por isso, o pensamento não está mais preso aos eventos perceptivos e motores. \n ( ) No período operatório concreto, os processos mentais da criança tornam-se lógicos, ou seja, a criança tem em seu controle um sistema cognitivo coerente e integrado com o qual organiza e age no mundo.",
+    "respostas": [
+        "a) F, V, F, F.",
+        "b) V, F, V, V.",
+        "c) F, F, F, V.",
+        "d) V, V, F, V."
+    ],
+    "numResposta": 1
+}

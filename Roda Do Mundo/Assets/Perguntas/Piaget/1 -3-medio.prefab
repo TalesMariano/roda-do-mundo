@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1588278966174806}
+  m_IsPrefabAsset: 1
+--- !u!1 &1588278966174806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4483376340144882}
+  - component: {fileID: 114682787777826484}
+  m_Layer: 0
+  m_Name: 1 -3-medio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4483376340144882
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1588278966174806}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.087309, y: 0, z: 9.882036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114682787777826484
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1588278966174806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ffff86db4274e40803db77961f4a8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  json: {fileID: 4900000, guid: 8bdd3ef90a3021a43a7bdd7faa71baa0, type: 3}
+  imagemQuestao: {fileID: 0}
+  questao:
+    pergunta: "A professora Bruna reconhece que Juliana se encontra na fase heter\xF4noma
+      do desenvolvimento moral, expressando cren\xE7as e comportamentos tipicamente
+      estudados e descritos por\_Piaget. Sabe que n\xE3o pode ensinar \xE0 Juliana
+      como adquirir autonomia no pensamento e na a\xE7\xE3o. E, caso se propusesse
+      a faz\xEA-lo, estaria levando Juliana a..."
+    respostas:
+    - "a) pular um est\xE1gio importante do desenvolvimento cognitivo."
+    - "b) confundir as fronteiras entre os conceitos de assimila\xE7\xE3o, acomoda\xE7\xE3o
+      e adapta\xE7\xE3o."
+    - c) parar de atuar cognitivamente, por confiar na professora.
+    - "d) realizar uma aprendizagem ex\xF3gena, para a qual n\xE3o h\xE1 matura\xE7\xE3o
+      biol\xF3gica."
+    numResposta: 2
+  afterQuestion:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

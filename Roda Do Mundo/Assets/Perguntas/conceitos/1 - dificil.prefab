@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1378187956697462}
+  m_IsPrefabAsset: 1
+--- !u!1 &1378187956697462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4352385214221284}
+  - component: {fileID: 114244038265450834}
+  m_Layer: 0
+  m_Name: 1 - dificil
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4352385214221284
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1378187956697462}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.087309, y: 0, z: 9.882036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114244038265450834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1378187956697462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ffff86db4274e40803db77961f4a8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  json: {fileID: 4900000, guid: 23f13e4539d4bf54aaf83e26ea966f92, type: 3}
+  imagemQuestao: {fileID: 0}
+  questao:
+    pergunta: "Leia as afirma\xE7\xF5es abaixo e verifique se s\xE3o condizentes com
+      a concep\xE7\xE3o te\xF3rica expressa entre par\xEAnteses: \n\n I- Todo o conhecimento
+      come\xE7a na experi\xEAncia sensorial (interacionista) \n II- O sujeito modifica
+      o mundo e \xE9 modificado por ele.(ambientalista) \n III- A aprendizagem \xE9
+      determinada por fatores biol\xF3gicos que se encontrariam prontos ao nascer
+      (ambientalista) \n IV- O meio tem preponder\xE2ncia sobre o sujeito (interacionista)
+      \n V- O ser humano nasce com dons que v\xE3o florescer no decorrer da vida (inatista)"
+    respostas:
+    - "a) I, II, III, IV e V s\xE3o corretas."
+    - "b) I, II, III e IV s\xE3o corretas."
+    - "c) I, III e V s\xE3o incorretas."
+    - "d) I, II, III e IV s\xE3o incorretas."
+    numResposta: 3
+  afterQuestion:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

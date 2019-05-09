@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1377471388107974}
+  m_IsPrefabAsset: 1
+--- !u!1 &1377471388107974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4615357303759760}
+  - component: {fileID: 114076407674568204}
+  m_Layer: 0
+  m_Name: 2-problema
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4615357303759760
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1377471388107974}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.087309, y: 0, z: 9.882036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114076407674568204
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1377471388107974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ffff86db4274e40803db77961f4a8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  json: {fileID: 4900000, guid: c0bf7034c3ad2904cbb0b698664afee1, type: 3}
+  imagemQuestao: {fileID: 0}
+  questao:
+    pergunta: "Considere as particularidades da seguinte situa\xE7\xE3o e, considerando
+      os fundamentos te\xF3ricos de Piaget, Wallon e Vygotsky, indique a alternativa
+      incorreta:\n\nNa EMEI Caetano de Campos, as crian\xE7as de diferentes idades
+      participam conjuntamente das atividades diversificadas organizadas no ambiente
+      externo da institui\xE7\xE3o. Decidem com quem, do que e como brincar. As op\xE7\xF5es
+      s\xE3o muitas. H\xE1 cantinhos com fantasias, outros com panelinhas, pratinhos
+      etc.; cantinhos de lavar e passar roupa; cantinho de bola; de pap\xE9is e tintas.
+      \ As crian\xE7as brincam livremente por 50 minutos. A professora est\xE1 presente,
+      interage, brinca junto, registra as falas das crian\xE7as, \xE0s vezes fotografa
+      e filma."
+    respostas:
+    - "a) Ao brincar a afetividade est\xE1 presente em todos os momentos, movimentos
+      e circunst\xE2ncias de nossas a\xE7\xF5es, assim como o ato motor e a cogni\xE7\xE3o
+      (Wallon)."
+    - "b) A brincadeira oportuniza que a crian\xE7a, de modo ativo, reinterprete o
+      mundo, produzindo novos saberes e pr\xE1ticas (Vygotsky)."
+    - "c) As crian\xE7as est\xE3o no est\xE1gio pr\xE9-operat\xF3rio, que tem in\xEDcio
+      com as primeiras simboliza\xE7\xF5es rudimentares que aparecem no final do per\xEDodo
+      sens\xF3rio-motor, ou seja, h\xE1 representa\xE7\xE3o e por isso o pensamento
+      n\xE3o est\xE1 mais preso aos eventos perceptivos e motores (Piaget)."
+    - "d) O conhecimento adquirido com esta possibilidade de escolha das brincadeiras
+      procede exclusivamente da experi\xEAncia com os objetos e resulta em constru\xE7\xF5es
+      sucessivas do processo de equilibra\xE7\xF5es majorantes (Piaget)."
+    numResposta: 3
+  afterQuestion:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

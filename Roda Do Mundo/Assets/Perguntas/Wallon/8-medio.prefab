@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1343654608517388}
+  m_IsPrefabAsset: 1
+--- !u!1 &1343654608517388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4209905566080110}
+  - component: {fileID: 114679209871837146}
+  m_Layer: 0
+  m_Name: 8-medio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4209905566080110
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1343654608517388}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.087309, y: 0, z: 9.882036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114679209871837146
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1343654608517388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ffff86db4274e40803db77961f4a8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  json: {fileID: 4900000, guid: 99e3a67c3693c9c489b3e1f7409ee047, type: 3}
+  imagemQuestao: {fileID: 0}
+  questao:
+    pergunta: "Wallon estabeleceu est\xE1gios para o desenvolvimento humano. Associe
+      os est\xE1gios enumerados abaixo \xE0s suas respectivas descri\xE7\xF5es: \n
+      1. Est\xE1gio impulsivo- emocional  \n 2. Est\xE1gio sens\xF3rio-motor e projetivo
+      \n 3. Est\xE1gio do personalismo \n 4. Est\xE1gio categorial \n 5. Est\xE1gio
+      da predomin\xE2ncia funcional \n \n ( ) Caracteriza-se pelo desenvolvimento
+      da fun\xE7\xE3o simb\xF3lica e da linguagem. A partir deste est\xE1gio a crian\xE7a
+      \xE9 capaz de dar significado ao s\xEDmbolo e ao signo. \n ( ) Per\xEDodo crucial
+      para a forma\xE7\xE3o da personalidade do indiv\xEDduo e da autoconsci\xEAncia.
+      \n ( ) Est\xE1gio marcado por conflitos internos e externos, quest\xF5es morais,
+      pessoais e existenciais. \n ( ) Come\xE7a a desenvolver habilidades como mem\xF3ria,
+      concentra\xE7\xE3o e aten\xE7\xE3o. \n ( ) \xC9 um per\xEDodo de atividades
+      generalizadas e desordenadas do organismo."
+    respostas:
+    - a) 1,2,3,4,5
+    - b) 2,3,5,4,1
+    - c) 5,4,3,2,1
+    - d) 3,1,5,2,4
+    numResposta: 1
+  afterQuestion:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

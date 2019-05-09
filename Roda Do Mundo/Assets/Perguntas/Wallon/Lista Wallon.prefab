@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1928169234312756}
+  m_IsPrefabAsset: 1
+--- !u!1 &1928169234312756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4332214816660332}
+  - component: {fileID: 114253989391809054}
+  m_Layer: 0
+  m_Name: Lista Wallon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4332214816660332
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1928169234312756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.087309, y: 0, z: 9.882036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114253989391809054
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1928169234312756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c58e63ef2b326d4b82a5afe07b2297c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  facil:
+  - {fileID: 114320476794263878, guid: 1e789a547defac444bdf66c3d1fe49b7, type: 2}
+  - {fileID: 114368702724753398, guid: 8eab8fa6bcbe5ad488e08796c5a2f64a, type: 2}
+  - {fileID: 114296234467149416, guid: b8d727b04b51642449254e0c1cb6ac88, type: 2}
+  medio:
+  - {fileID: 114933008094465860, guid: f3282c611123ddd46a2d29034252b7ab, type: 2}
+  - {fileID: 114679209871837146, guid: b263e35d5a443e143a4216e7ec602af2, type: 2}
+  dificil:
+  - {fileID: 114569925059685556, guid: 775b2a383422df445a4e190a34300230, type: 2}
+  - {fileID: 114296234467149416, guid: 1f323ffe61e0d29468bb8e723407a98e, type: 2}

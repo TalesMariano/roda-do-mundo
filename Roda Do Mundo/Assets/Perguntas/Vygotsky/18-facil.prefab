@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1188607142401544}
+  m_IsPrefabAsset: 1
+--- !u!1 &1188607142401544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4264071643038610}
+  - component: {fileID: 114240878074397200}
+  m_Layer: 0
+  m_Name: 18-facil
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4264071643038610
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1188607142401544}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.087309, y: 0, z: 9.882036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114240878074397200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1188607142401544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ffff86db4274e40803db77961f4a8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  json: {fileID: 4900000, guid: c077358c02902024391bfafb34cc3bf3, type: 3}
+  imagemQuestao: {fileID: 0}
+  questao:
+    pergunta: "Complete as lacunas de acordo com o pensamento de Vygotsky: \n O conceito
+      de zona de desenvolvimento (1)_______se refere a fun\xE7\xF5es (2)__________
+      emergentes, a tudo que o sujeito ainda n\xE3o \xE9 capaz de dominar sozinho,
+      mas \xE9 capaz de faz\xEA-lo quando algu\xE9m ,mais (3)________ toma parte em
+      sua atividade."
+    respostas:
+    - "a) 1 real ; 2 fisiol\xF3gicas; 3 inteligente"
+    - "b) 1 proximal; 2 psicol\xF3gicas; 3experiente"
+    - c) 1 potencial ; 2 cognitivas ; 3 capacitado
+    - "d) 1 cotidiana; 2 biol\xF3gicas; 3 ilustrado"
+    numResposta: 1
+  afterQuestion:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

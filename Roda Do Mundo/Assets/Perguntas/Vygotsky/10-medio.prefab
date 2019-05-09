@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1136877560546892}
+  m_IsPrefabAsset: 1
+--- !u!1 &1136877560546892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4578583375472692}
+  - component: {fileID: 114157008167155478}
+  m_Layer: 0
+  m_Name: 10-medio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4578583375472692
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1136877560546892}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.087309, y: 0, z: 9.882036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114157008167155478
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1136877560546892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ffff86db4274e40803db77961f4a8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  json: {fileID: 4900000, guid: 741a496090dedfb4b9a755c6797574b1, type: 3}
+  imagemQuestao: {fileID: 0}
+  questao:
+    pergunta: A respeito do de Vygotsky, assinale a alternativa correta.
+    respostas:
+    - "a) O socioconstrutivismo \xE9 a corrente pedag\xF3gica que se originou do pensamento
+      de Vygotsky e aponta para a ideia de que as crian\xE7as s\xE3o influenciadas
+      pelas intera\xE7\xF5es com o mundo, especialmente com a natureza, sendo por
+      isso considerada uma teoria de base ecol\xF3gica."
+    - "b) O acesso \xE0 cultura ocorre por meio de processos de media\xE7\xE3o, que
+      s\xE3o constitu\xEDdos por sistemas simb\xF3licos constru\xEDdos nas rela\xE7\xF5es
+      sociais entre o indiv\xEDduo e o grupo em que est\xE1 inserido."
+    - "c) A base biol\xF3gica, mesmo pouco importante, \xE9 o pano de fundo sobre
+      o qual as intera\xE7\xF5es sociais ocorrem, de modo que o desenvolvimento intelectual
+      do sujeito depende de condi\xE7\xF5es biol\xF3gicas adequadas."
+    - "d) Segundo o pensamento de Vygotsky, a aprendizagem das ideias e conceitos
+      do mundo real equivale \xE0 forma escolar, de maneira que a escola demonstra
+      adequadamente as desigualdades sociais e econ\xF4micas postas na sociedade."
+    numResposta: 1
+  afterQuestion:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

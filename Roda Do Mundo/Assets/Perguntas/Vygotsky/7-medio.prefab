@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1921512800113524}
+  m_IsPrefabAsset: 1
+--- !u!1 &1921512800113524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4771138379583290}
+  - component: {fileID: 114531110404022520}
+  m_Layer: 0
+  m_Name: 7-medio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4771138379583290
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1921512800113524}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.087309, y: 0, z: 9.882036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114531110404022520
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1921512800113524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ffff86db4274e40803db77961f4a8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  json: {fileID: 4900000, guid: 24a934fbba2c835429eeccc696e1d71a, type: 3}
+  imagemQuestao: {fileID: 0}
+  questao:
+    pergunta: "A respeito dos estudos de Vygotsky, \xE9 incorreto afirmar que:"
+    respostas:
+    - "a) As formas superiores de comportamento consciente do homem originam-se de
+      sua vida em sociedade, nas rela\xE7\xF5es sociais que mant\xE9m com outros seres
+      humanos;"
+    - "b) A zona de desenvolvimento proximal \xE9 caracterizada como a dist\xE2ncia
+      entre o n\xEDvel de desenvolvimento real, que se costuma determinar por meio
+      da a\xE7\xE3o aut\xF4noma e o n\xEDvel de desenvolvimento potencial, determinado
+      pela a\xE7\xE3o colaborativa;"
+    - "c) O homem se constitui como ser humano, principalmente pelas suas caracter\xEDsticas
+      elementares (naturais ou biol\xF3gicas) que herda de seus antepassados, e n\xE3o
+      nas rela\xE7\xF5es que estabelece com a hist\xF3ria social dos homens;"
+    - "d) A rela\xE7\xE3o entre o homem e a natureza, entre o homem e o outro, \xE9
+      sempre mediada por produtos culturais humanos como os instrumentos e os signos,
+      que conferem \xE0 atividade humana seu car\xE1ter produtivo;"
+    numResposta: 2
+  afterQuestion:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

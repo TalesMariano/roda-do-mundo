@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1965125871616476}
+  m_IsPrefabAsset: 1
+--- !u!1 &1965125871616476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4396855187519134}
+  - component: {fileID: 114940306777205568}
+  m_Layer: 0
+  m_Name: 1 - 1-Piaget Dificil
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4396855187519134
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1965125871616476}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.087309, y: 0, z: 9.882036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114940306777205568
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1965125871616476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ffff86db4274e40803db77961f4a8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  json: {fileID: 4900000, guid: ffe62864e5ab36540a2480d69c52576d, type: 3}
+  imagemQuestao: {fileID: 0}
+  questao:
+    pergunta: "Com base na\_teoria piagetiana, relacione os conceitos identificados
+      por n\xFAmeros \xE0s defini\xE7\xF5es apresentadas na sequ\xEAncia: \n \n 1.
+      Adapta\xE7\xE3o\_\n 2. Assimila\xE7\xE3o \n 3. Acomoda\xE7\xE3o \n 4. Organiza\xE7\xE3o
+      \n 5. Est\xE1gio \n \n ( ) \xC9 a ess\xEAncia do funcionamento biol\xF3gico
+      e do funcionamento intelectual. Todos os organismos vivos possuem. Ocorre por
+      meio de dois processos b\xE1sicos.\_ \n ( ) \xC9 um meio para compreender o
+      processo de desenvolvimento do ser humano. S\xE3o formas de interagir com o
+      ambiente que t\xEAm caracter\xEDsticas semelhantes. Traduz diferentes formas
+      de organiza\xE7\xE3o mental e de diferentes estruturas cognitivas. \n ( ) \xC9
+      um processo cognitivo em que o sujeito integra um novo dado aos esquemas j\xE1
+      existentes, de modo a incorpor\xE1-lo \xE0 estrutura existente do sistema. Explica
+      o crescimento dos esquemas."
+    respostas:
+    - a) 2, 3, 1
+    - b) 3, 4, 2
+    - c) 4, 5, 3
+    - d) 1, 5, 2.
+    numResposta: 3
+  afterQuestion:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

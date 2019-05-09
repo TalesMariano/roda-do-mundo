@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1377471388107974}
+  m_IsPrefabAsset: 1
+--- !u!1 &1377471388107974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4615357303759760}
+  - component: {fileID: 114076407674568204}
+  m_Layer: 0
+  m_Name: 1-problema
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4615357303759760
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1377471388107974}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.087309, y: 0, z: 9.882036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114076407674568204
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1377471388107974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ffff86db4274e40803db77961f4a8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  json: {fileID: 4900000, guid: d82adfdea8c486d41a38dff4472b8654, type: 3}
+  imagemQuestao: {fileID: 0}
+  questao:
+    pergunta: "Considere as particularidades da seguinte situa\xE7\xE3o e indique
+      a alternativa correta de acordo com os aportes te\xF3ricos de Vygotsky.\n\n
+      Ana Lu\xEDsa brinca com uma slime enquanto a professora explica para a turma,
+      de modo concreto, como se faz um bolo de cenoura. A professora, dirigindo-se
+      \xE0 Ana Lu\xEDsa, diz: \u201Cvoc\xEA n\xE3o vai aprender nada desse jeito\u201D."
+    respostas:
+    - "a) A professora est\xE1 criando a zona de desenvolvimento real por meio da
+      produ\xE7\xE3o do bolo."
+    - "b) A atitude da professora favorece a capacidade l\xFAdica da crian\xE7a."
+    - "c) A atividade l\xFAdica \xE9 categorizada como uma esfera que impede a aquisi\xE7\xE3o
+      de determinados conhecimentos."
+    - "d) Aprender a fazer bolo \xE9 fundamental para as transforma\xE7\xF5es dos
+      instrumentos e das rela\xE7\xF5es de trabalho."
+    numResposta: 2
+  afterQuestion:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

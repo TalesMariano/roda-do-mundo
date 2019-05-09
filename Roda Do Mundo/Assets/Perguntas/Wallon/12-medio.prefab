@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000202983235166}
+  m_IsPrefabAsset: 1
+--- !u!1 &1000202983235166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4184829569065370}
+  - component: {fileID: 114015229569279282}
+  m_Layer: 0
+  m_Name: 12-medio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4184829569065370
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000202983235166}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.087309, y: 0, z: 9.882036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114015229569279282
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000202983235166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ffff86db4274e40803db77961f4a8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  json: {fileID: 4900000, guid: 7bf07b80f3312fe41802bb6b28017fad, type: 3}
+  imagemQuestao: {fileID: 0}
+  questao:
+    pergunta: "Analise as afirmativas sobre Henri Wallon: \n I - Para Wallon, o termo
+      afetividade se refere \xE0 capacidade do ser humano de ser afetado positiva
+      ou negativamente tanto por sensa\xE7\xF5es internas como externas. \n II- Para
+      Wallon a afetividade est\xE1 sempre presente em todos os momentos, movimentos
+      e circunst\xE2ncias de nossas a\xE7\xF5es, assim como o ato motor e a cogni\xE7\xE3o.
+      \n III- A crian\xE7a, para Wallon, \xE9 essencialmente cognitiva e aos poucos
+      vai se constituindo em um ser socioemocional. \n IV- Wallon utiliza o conceito
+      de sincretismo infantil como principal caracter\xEDstica do pensamento da crian\xE7a:
+      a aus\xEAncia de diferencia\xE7\xE3o entre os elementos, as informa\xE7\xF5es
+      que ela recebe do meio, as experi\xEAncias pessoais e as fantasias se misturam.
+      \n Est\xE1 incorreta:"
+    respostas:
+    - a) III
+    - b) II
+    - c) I
+    - d) IV
+    numResposta: 0
+  afterQuestion:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
